@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="in">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Loucos por HP</title>
+</head>
+
+<body>
+
+  <h1>Loucos por Harry Potter</h1>
+  <div class="titulo">
+    <p>Para todos PotterHeads não importa a idade</p>
+    <p>          por :Bárbara Nunes</p>
+  </div>
+
+  <h2>
+    Não seja um TROUXA,<br />
+    Lummus!<br />
+    Juro solenemente não fazer nada de bom!
+  </h2>
+  <form class="meu-form"action="https://formsubmit.co/barbara-elen@hotmail.com" method="POST">
+    <p>Vamos nos conhecer melhor ?</p>
+    <div class="dados">
+    Nome :
+    <input class="dados" type="text" name="nome" placeholder="digite seu nome" /><br><br>
+    idade :<input class="dados"  type="number" name="idade "placeholder ="digite sua idade" />
+  </div>
+
+    <p>Qual casa voce pertence?</p>
+  
+    <input type="radio" name="casa" value="Grifinória" /> GRIFINÓRIA
+    <input type="radio" name="casa" value="Sonserina" /> SONSERINA <br>
+    <input type="radio" name="casa" value="Corvinal" /> CORVINAL
+    <input type="radio" name="casa" value="Lufa-Lufa" /> LUFA-LUFA
+    
+
+    <p> Qual seu personagem favorito ?</p>
+
+    <textarea name="personagem" id="personagem" cols="40" rows="1"
+      placeholder="Digite seu personagem favorito"></textarea>
+
+    <p>Pior morte da saga ? ?</p>
+
+    <input type="radio" name="morte" value="Dumbledore" /> Dumbledore <br>
+    <input type="radio" name="morte" value="Snape" /> Severo Snape<br>
+    <input type="radio" name="morte" value="Dobby" /> Dobby<br>
+    <input type="radio" name="morte" value="SiriusBlack" /> Sirius Black <br>
+    <input type="radio" name="morte" value="wesley" /> Fredy Wesley<br>
+    <input type="radio" name="morte" value="Cedrico" /> Cedrico Diggory<br>
+    <input type="radio" name="morte" value="Remo" /> Remo Lupin <br>
+
+    <p></p>
+    <p> Qual seu livro Favorito ?</p>
+    <textarea name="livro" id="livro" cols="30" rows="1" placeholder="Digite seu livro preferido "></textarea>
+    <p>Qual o seu filme favorito?</p>
+    <textarea name="filme" id="filme" cols="30" rows="1" placeholder="Digite seu filme preferido "></textarea>
+    <p>Descreva o que mais gosta da saga Harry Potter </p>
+
+    <textarea name="anotacoes" id="anotacoes" cols="30" rows="6" placeholder=" Anotações"></textarea>
+
+
+ 
+  
+
+  <div>
+    <button onclick="clickNoBotao()" class="botao" type="submit" data-button="">mal feito, feito!</button>
+  </div>
+   </form>
+  <script>
+     function clickNoBotao() {
+            // Exibe um alert com a mensagem desejada
+            alert('Formulário enviado para Hogwarts!');
+     }
+  </script>
+  <img  class="img-fundo"src="fundo.jpg" alt="logo-harry" />
+  <div class="mascara-img"></div>
+ 
+  </div>
+
+
+</div>
+
+</body>
+
+
+</html>
