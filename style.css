@@ -5,21 +5,15 @@
 }
 
 body {
-  background-image: url("https://github.com/barbaranunesprogramer/loucosporhp/blob/1972894b2687a97fc16602f693d5d0d38efd32d2/fundo.jpg");
-  /*
-  Adicionado para garantir que os elementos fiquem empilhados verticalmente */
+  flex-direction: column; /* Adicionado para garantir que os elementos fiquem empilhados verticalmente */
   align-items: center;
-  justify-content: space-around;
-   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: space-around;
-  
-  
+  justify-content: space-evenly;
+  height: 100vh;
 
   
 }
 
-h1 {
+{
   color: orange;
   font-size: 75px;
   font-family: Arial;
@@ -110,8 +104,4 @@ textarea{
 .botao:hover{
     color:aqua;
     background: blue;
-
-
-}
-
 
