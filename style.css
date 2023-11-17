@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: (fundo.jpg);
+  background-image: url("https://github.com/barbaranunesprogramer/loucosporhp/blob/1972894b2687a97fc16602f693d5d0d38efd32d2/fundo.jpg");
   /*
   Adicionado para garantir que os elementos fiquem empilhados verticalmente */
   align-items: center;
