@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/aa9aa146396667.59cabd1cc5b23.jpg");
+  background-image: (fundo.jpg);
   /*
   Adicionado para garantir que os elementos fiquem empilhados verticalmente */
   align-items: center;
