@@ -25,7 +25,7 @@ body {
 
 /* Título principal */
 .titulo-principal {
-    font-size: 100px;
+    font-size: 50px;
     /* aumenta o tamanho */
     color: #fdd835;
     /* amarelo estilo Hogwarts */
@@ -41,7 +41,7 @@ body {
 
 .subtitulo {
     text-align: center;
-    font-size: 50px;
+    font-size: 25px;
     color: #ffffff;
     margin-bottom: 40px;
 }
