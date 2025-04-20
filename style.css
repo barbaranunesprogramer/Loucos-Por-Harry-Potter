@@ -23,6 +23,18 @@ body {
     background-blend-mode: darken;
 }
 
+.wrapper {
+    flex: 1;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Título principal */
 .titulo-principal {
     font-size: 50px;
@@ -193,7 +205,31 @@ input::placeholder {
     overflow-y: auto;
 }
 
+.rodape {
+    margin-top: auto;
+    background-color: #1a1a1a;
+    color: #fdd835;
+    padding: 20px;
+    text-align: center;
+    font-family: 'HarryPotter', sans-serif;
+    font-size: 18px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+}
 
+#botaoFooter {
+    font-family: 'HarryPotter', cursive;
+    background-color: #6a1b9a;
+    color: rgb(221, 232, 11);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+    transition: 0.3s;
+    font-size: 24px;
+    width: auto;
+    text-decoration: none;
+}
 
 @media (max-width: 768px) {
     .titulo-principal {

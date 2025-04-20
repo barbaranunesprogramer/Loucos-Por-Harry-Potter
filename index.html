@@ -9,35 +9,34 @@
 </head>
 
 <body>
+  <div class="wrapper">
+    <h1 class="titulo-principal">Loucos por Harry Potter</h1>
 
-  <h1 class="titulo-principal">Loucos por Harry Potter</h1>
+    <div class="subtitulo">
+      <p class="frase">Se você ainda espera sua carta de Hogwarts... você tá no lugar certo!</p>
+    </div>
 
-  <div class="subtitulo">
-    <p class="frase">Se você ainda espera sua carta de Hogwarts... você tá no lugar certo!</p>
-    <p class="autora">Criado com feitiço e muito amor por <span class="nome">Bárbara Nunes</span></p>
-  </div>
-
-  <h2 class="frase-magica">
-    Ei, bruxos e bruxas!<br />
-    Nada de ser trouxa por aqui ⚡<br />
-    Acenda sua varinha com um <strong>Lumos!</strong><br /><br />
+    <h2 class="frase-magica">
+      Ei, bruxos e bruxas!<br />
+      Nada de ser trouxa por aqui ⚡<br />
+      Acenda sua varinha com um <strong>Lumos!</strong>
+    </h2>
 
     <div class="botoes-iniciais">
       <button id="botaoFeitico">Juro solenemente não fazer nada de bom!</button>
       <button id="naoseja">Não entendo sobre magia</button>
     </div>
 
-    <div id="fraseAlternativa">
-    </div>
-  </h2>
+    <div id="fraseAlternativa"></div>
 
-  <form class="meu-form" id="formularioMagico" style="display: none;"
-    action="https://formsubmit.co/barbara-elen@hotmail.com" method="POST" onsubmit="return clickNoBotao(event)">
-    <p>Vamos nos conhecer melhor?</p>
+    <!-- Formulário -->
+    <form class="meu-form" id="formularioMagico" style="display: none;"
+      action="https://formsubmit.co/barbara-elen@hotmail.com" method="POST" onsubmit="return clickNoBotao(event)">
+      <p>Vamos nos conhecer melhor?</p>
 
-    <d<div class="campo">
-      <p>Nome:</p>
-      <input type="text" id="nome" name="nome" placeholder="Digite seu nome" />
+      <div class="campo">
+        <p>Nome:</p>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" />
       </div>
 
       <div class="campo">
@@ -59,7 +58,6 @@
       <label for="lufalufa">Lufa-Lufa</label>
 
       <p>Qual seu personagem favorito?</p>
-      <label for="personagem">Personagem favorito:</label>
       <textarea name="personagem" id="personagem" cols="40" rows="1"
         placeholder="Digite seu personagem favorito"></textarea>
 
@@ -112,21 +110,28 @@
       <label for="TonkseLupin">Tonks e Lupin</label>
 
       <p>Qual seu livro favorito?</p>
-      <label for="livro"></label>
       <textarea name="livro" id="livro" cols="30" rows="1" placeholder="Digite seu livro preferido"></textarea>
 
       <p>Qual seu filme favorito?</p>
-      <label for="filme"></label>
       <textarea name="filme" id="filme" cols="30" rows="1" placeholder="Digite seu filme preferido"></textarea>
 
       <p>Descreva o que mais gosta da saga Harry Potter:</p>
-      <label for="anotacoes">Sua opinião:</label>
       <textarea name="anotacoes" id="anotacoes" cols="30" rows="6" placeholder="Anotações"></textarea>
 
       <div class="botao-container">
         <button class="botao" type="submit">Mal feito, feito!</button>
       </div>
-  </form>
+    </form>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="rodape">
+    <p>
+      <a id="botaoFooter" href="https://portfoliobarbaraprogramer-q4dudrusi.vercel.app/">
+        Clique aqui e veja o meu portfólio -Criado com feitiço e muito amor por Bárbara Nunes
+      </a>
+    </p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
